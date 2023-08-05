@@ -1,0 +1,28 @@
+*{
+    /* background-color: #141414; */
+    box-sizing: border-box;
+    color:white;
+    scroll-behavior: smooth;
+  
+  
+}
+body{
+    background-color: #141414;
+    scroll-behavior: smooth;
+}
+nav a.nav-link{
+    text-decoration: none;
+    color: #E5E5E5;
+}
+nav a.nav-link:active{
+    color: #E5E5E5 ;
+}
+nav a:invalid{
+    color:grey;
+}
+nav a:visited{
+    color: #E5E5E5;
+}
+nav .nav-link.active{
+    color: #E5E5E5;
+}

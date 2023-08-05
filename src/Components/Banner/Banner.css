@@ -1,0 +1,96 @@
+.bg-banner{
+    position: relative;
+    height: 550px;
+    background-size: 100% 100%;
+    background-position: center;
+    background-attachment: fixed;
+   object-fit: contain;
+}
+.bg-banner .banner-content{
+    position: absolute;
+    top:11rem;
+    padding: 0 60px;
+}
+@media (max-width:2000px){
+    .bg-banner .banner-content{
+        position: absolute;
+        top:13rem;
+    }
+}
+@media (max-width:1500px){
+    .bg-banner .banner-content{
+        position: absolute;
+        top:15rem;
+    }
+}
+@media (max-width:1000px){
+    .bg-banner .banner-content{
+        position: absolute;
+        top:18rem;
+    }
+}
+@media (max-width:500px){
+    .bg-banner .banner-content{
+        position: absolute;
+        top:20rem;
+    }
+}
+@media (max-width:400px){
+    .bg-banner .banner-content{
+        position: absolute;
+        top:22rem;
+    }
+    .banner-description-div{
+        width:100%;
+    }
+}
+.banner h1{
+    color:rgb(255, 255, 255,0.4);
+    font-weight: 700;
+   
+}
+.banner-description-div{
+    display: block;
+   width:50%;
+}
+.banner .banner-description{
+color: #ffffff;
+font-size: 1.2vw;
+font-weight: 400;
+line-height: normal;
+text-shadow: 2px 2px 4px rgba(0,0,0,.45);
+}
+  
+.banner-buttons{
+    display: flex;
+    min-width:20px;
+}
+.banner .btn{
+    font-weight: 600;
+
+}
+
+
+.play:hover{
+    background-color: antiquewhite;
+}
+.btn-light svg{
+    background-color:white;
+    fill:black;
+}
+
+.more-info svg{
+    background-color:rgba(88, 88, 88, 0.10) ;
+   
+    fill:black;
+}
+.more-info:hover{
+    background-color: rgba(142, 137, 137, 0.4);
+}
+.fade-bottom{
+    background: rgb(0,0,0);
+background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.2498249299719888) 52%);
+}
+
+
+

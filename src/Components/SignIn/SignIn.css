@@ -1,0 +1,154 @@
+.sign-in{
+    position: relative;
+    height:100vh; 
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/5eab1b22-c5ea-48b0-8ef4-862b3fa6df2c/4af43238-4df9-4946-9920-a4bd55f2e50b/IN-en-20230724-popsignuptwoweeks-perspective_alpha_website_large.jpg") ;
+    background-size: cover;
+    background-position: center;
+}
+.sign-in-info{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    padding: 30px;
+    background-color: rgba(20,20,20,0.7);
+    width: 30%;
+    min-height: 530px;
+    margin-top: 20px;
+}
+.sign-in-title{
+   
+    color: #fff;
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 28px;
+    font-family:  Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+.sign-in-title p{
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+.sign-in-form-title{
+    font-size: 1.2rem;
+}
+.sign-in .form-control{
+    width:100%;
+    padding: 10px;
+    background-color: rgba(20,20,20,0.4);
+    color:black;
+    background-color: rgba(255, 255, 255,0.7);
+
+}
+.sign-in-input-div{
+  display: flex;
+  justify-content: center;
+  
+}
+.sign-in .btn{
+    
+    background-color: rgba(229,9,20,1);
+    border: 0;
+    padding: 7px 20px;
+    width: 100%;
+    
+
+}
+.sign-in .btn:hover{
+    background-color: rgba(229,9,20,0.6);
+
+}
+.sign-in .form-control:focus{
+    border-color: rgb(229,9,20) ;
+    box-shadow:  10px rgb(229,9,20) ;
+    background-color: #fff;
+}
+.sign-in-fade-bottom{
+    height: 100vh;
+    background: rgb(0,0,0);
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.668) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);;
+
+}
+.sign-in .form-check-label{
+    font-size: 13px;
+    color:#B3B3B3;
+}
+.sign-in .bottom-info-1{
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    
+}
+.sign-in .bottom-info-1 .text{
+    color: #B3B3B3;
+}
+.sign-in .other .sign-up{
+    color: #737373;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 16px;
+}
+.sign-in form .recaptcha-terms-of-use p,span{
+    font-size: 10px;
+    color: #737373;
+
+   
+}
+.sign-in form .recaptcha-terms-of-use a{
+    font-size: 10px;
+    color: #737373;
+color: #0080ff;
+margin-left: 2px;
+   
+}
+.sign-in form .recaptcha-terms-of-use .recaptcha-terms-of-use-span1 ,a{
+    color: #737373;
+}
+.sign-in form .recaptcha-terms-of-use--link-span{
+    background-color: black;
+    border: 0;
+    color: #0080ff ;
+    cursor: pointer;
+}
+.sign-in form .recaptcha-terms-of-use--link-span:hover{
+    color: rgb(99, 99, 229);
+}
+.sign-in .recaptcha-terms-of-use--disclosure-hide{
+    display: none;
+}
+.sign-in .recaptcha-terms-of-use--disclosure{
+    display: block;
+    font-size: 13px;
+}
+     
+
+
+@media (max-width:1400px){
+    .sign-in-info{
+        width:29% ;
+       
+        margin-top: 30px;
+    }
+    .sign-in{
+        width: 100%;
+    }
+}
+@media (max-width:992px){
+    .sign-in-info{
+        width:50% ;
+       height: 500px;
+        margin-top: 50px;
+    }
+    .sign-in{
+        width: 100%;
+    }
+}
+@media (max-width:739px){
+    .sign-in-info{
+        width:100% ;
+       
+        margin-top: 50px;
+    }
+    .sign-in{
+        width: 100%;
+    }
+}

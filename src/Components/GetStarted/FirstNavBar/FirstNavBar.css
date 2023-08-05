@@ -1,0 +1,26 @@
+.first-nav {
+   margin: 0 32px;
+}
+.first-nav-dropdown{
+    color: #e5e5e5;
+    background-color:rgba(20,20,20,0.6);
+    padding: 0 20px;
+    border-radius: 10px;
+}
+.first-nav-links{
+    margin-left:75%;
+    font-size: 0.8rem;
+}
+.first-nav svg{
+    fill:#e5e5e5;
+}
+.first-nav-sign-in{
+    padding: 5px 10px;
+   font-size: 0.8rem;
+   background-color:  rgba(229,9,20,1);
+   border: 0;
+}
+.first-nav-sign-in:hover{
+    background-color:  rgba(229,9,20,0.4);
+   
+}

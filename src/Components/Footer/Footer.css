@@ -1,0 +1,9 @@
+.footer-links ul li{
+    font-weight: 100;
+}
+.footer-links li:hover{
+    color:#e5e5e589;
+}
+.footer-row p{
+    font-weight: 600;
+}

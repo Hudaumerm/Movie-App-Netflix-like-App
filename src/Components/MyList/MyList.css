@@ -1,0 +1,48 @@
+.list{
+    height: 100vh;
+}
+.list-container{
+    text-align: center;
+}
+.list .remove-icone{
+    width:18%;
+}
+.list svg:hover{
+    opacity: 0.4;
+}
+.list h2{
+    margin-top: 100px;
+}
+.list .container{
+    height:auto;
+    text-align: center;
+}
+.list .list-section-title:hover {
+   opacity: 0.5;
+  
+}
+.row-posters-list{
+    display: grid;
+   
+    padding:25px 0;
+   flex-direction: row;
+   flex-wrap: nowrap;
+    width:100%;
+   
+   
+
+}
+
+.row-posters-list .row-card{
+    width:170px;
+    max-height: 100%;
+   border:0 ;
+    margin-left: 15px;
+    object-fit: contain;
+    transition: transform 450ms;
+}
+.list .col-list{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 15px;
+}

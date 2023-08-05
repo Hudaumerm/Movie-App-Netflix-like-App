@@ -1,0 +1,235 @@
+/* .row-movies{
+  margin-left:51px ;
+}
+.title-section{
+ line-height: 1.3vw;
+ margin: 0;
+ padding-top: 10px;
+ padding-bottom: 1vw;
+}
+.row-movies .h2{
+    display: table-cell;
+    font-size: 1.5rem;
+   
+    
+    color: #e5e5e5;
+    font-weight: 500;
+}
+
+.row-posters{
+    display: flex;
+    overflow-x: scroll;
+   overflow-y: hidden;
+    padding:15px 0;
+    flex-wrap: nowrap;
+    flex-direction: row;
+  
+   
+   
+
+}
+.row-posters::-webkit-scrollbar{
+    display: none;
+}
+
+.posters{
+    position: relative;
+    transition:all .4s ease-in-out;
+   
+
+
+}
+.poster{
+    position: relative;
+    width:100%;
+    max-height: 150px;
+    border-radius: 5px;
+    object-fit: contain;
+    border-radius: 3px;
+    transition: transform 450ms;
+    margin-right:15px ;
+}
+.poster:hover{
+    transform: scale(1.08);
+}
+.large-card{
+  max-height: 250px;
+  
+}
+.large-card:hover{
+    transform: scale(1.09);
+}
+.small-poster{
+    max-height: 150px;
+}
+.row-posters .overlay-items{
+   display: none;
+    
+   
+}
+.overlay svg{
+    background-color: black;
+    fill:white;
+    width: fit-content;
+    margin: 0;
+    height: 20px;
+}
+.overlay svg.expand{
+    height: 24px;
+    margin-right:0px ;
+}
+.poster:hover + .overlay-items{
+   display: block;
+  
+}
+
+.row-poster img{
+    position: relative;
+}
+#page svg{
+    position: absolute;
+    left:-10px;
+}
+ */
+.row-movies{
+    margin: 30px 0 30px 50px;
+   color: #e5e5e5;
+   position: relative;
+}
+
+.title-section{
+    line-height: 1.3vw;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 1vw;
+   }
+   .row-movies .h5{
+       display: table-cell;
+       /* font-size: 1.5rem; */
+      
+       color: #e5e5e5;
+       font-weight: 500;
+       opacity: 1;
+   }
+   .row-movies .h5:hover{
+   opacity: 0.5;
+   cursor: pointer;
+   }
+.row-posters{
+    display: flex;
+    overflow-x: scroll;
+   overflow-y: hidden;
+    padding:25px 0;
+   flex-direction: row;
+   flex-wrap: nowrap;
+    width:100%;
+   
+   
+
+}
+.row-posters::-webkit-scrollbar{
+    display: none;
+}
+.row-posters .row-card{
+    width:170px;
+    max-height: 100%;
+   border:0 ;
+    margin-left: 15px;
+    object-fit: contain;
+    transition: transform 450ms;
+}
+.row-card:hover{
+    transform: scale(1.08);
+}
+.poster{
+    position: relative;
+    width:auto;
+    height:200px;
+}
+.large-card{
+    width: auto;
+    height: 250px;
+}
+.large-card:hover{
+    transform: scale(1.09);
+}
+.poster-large{
+    width: auto;
+    height: 250px;
+}
+
+.row-card-body{
+    display: none;
+    background-color:rgba(20,20,20, 0.8);
+    position: absolute;
+    top:64%;
+}
+.large-row-card-body{
+    position: absolute;
+    top:75%;
+}
+.row-card:hover .large-row-card-body{
+    position: absolute;
+    top:75% !important;
+}
+.row-card:hover .row-card-body{
+    display: block;
+    position: absolute;
+    top:65%;
+}
+
+.row-card:hover .poster{
+   width: auto;
+    border: 0;
+    transform:scale(1.001);
+}
+.row-card:hover .poster-large{
+    width: auto;
+     border: 0;
+     transform:scale(1.003);
+ }
+
+.row-card-body svg{
+    margin-top: -20px;
+    fill:#e5e5e5;
+    margin-right: 5px;
+    height: 60px;
+}
+.row-card-body svg.expand{
+    margin-left: 1.9rem;
+   margin-right: 0;
+   width: 17%;
+}
+p.card-text {
+    object-fit: contain;
+    font-size: 0.77rem;
+    margin-top: -19px;
+    color: #e5e5e5;
+}
+.row-card .row-star{
+   height: fit-content;
+    margin: 0;
+    padding: 0;
+    margin-top: -4px;
+    fill:yellow;
+}
+.row-card-body .heart-icone-dislike{
+    fill:#e5e5e5;
+
+    &:hover {
+        opacity: 0.2;
+      }}
+ .row-card-body .heart-icone-like{      
+    opacity: 1;
+    animation-name: wishlist-ani;
+    animation-duration: 1000ms;
+    fill:red ;
+   
+  
+}
+.row-card svg:hover{
+    opacity: 0.3;
+}
+.modal{
+    position: absolute;
+}

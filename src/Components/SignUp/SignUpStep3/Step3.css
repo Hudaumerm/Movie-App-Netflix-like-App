@@ -1,0 +1,77 @@
+.step3{
+    margin: 0;
+     background-color: #ffffff ;
+     color:#333333 ;
+ }
+ .step3-nav .logo-step3{
+     margin: 0;
+    
+ }
+ 
+ .step3-container{
+     height: 100vh;
+     position: relative;
+    
+ }
+ .step3 .reg-wrapper{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    color:#333333;
+    text-align: center;
+    
+    height: auto;
+   
+    
+ }
+ .reg-wrapper .layer-1{
+     color:#333333;
+     font-weight: 100;
+     margin-top:25px ;
+ }
+ 
+ .reg-wrapper .layer-1 span{
+     color: #333333;
+     font-weight: 600;
+     
+ }
+ .step3-h3{
+    font-weight: 700;
+ }
+ .step3 .step3-next-btn{
+     padding:0.2rem 2rem;
+     background-color: #e50914;
+     color: #fff;
+     border-radius: 4px;
+     font-size: 20px;
+     font-weight: 400;
+     
+     border-color: #e50914;
+     width: 15rem;
+ }
+ .step3 .step3-next-btn:hover{
+     opacity: 0.5;
+ }
+ .step3 .reg-wrapper img{
+     width: 60%;
+ }
+ .step3-icone{
+    fill:red;
+    width:3rem;
+    height: 3rem;
+ }
+ .step3 ul li{
+    color: #333333;
+    list-style: none;
+    text-align: left;
+    line-height: 2.5rem;
+    font-size: 1rem;
+ }
+ .step3 ul li svg{
+    fill:red;
+   
+ }
+ 
+
+ 

@@ -1,0 +1,61 @@
+.get-started{
+    text-align: center;
+    position: relative;
+    height: 100vh; 
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/5eab1b22-c5ea-48b0-8ef4-862b3fa6df2c/4af43238-4df9-4946-9920-a4bd55f2e50b/IN-en-20230724-popsignuptwoweeks-perspective_alpha_website_large.jpg") ;
+    background-size: cover;
+    background-position: center;
+}
+.get-started-info{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+
+}
+.get-started-title .h1{
+   
+    font-size: 2.3rem;
+    font-weight: 900;
+    font-family:  Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+.get-started-title p{
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+.get-started-form-title{
+    font-size: 1.2rem;
+}
+.get-started .form-control{
+    width:50%;
+    padding: 10px;
+    background-color: rgba(20,20,20,0.4);
+    color: white !important;
+
+}
+.get-started-input-div{
+  display: flex;
+  justify-content: center;
+  
+}
+.get-started-input-div .btn{
+    margin-left: 10px;
+    background-color: rgba(229,9,20,1);
+    border: 0;
+    padding: 0 20px;
+
+}
+.get-started-input-div .btn:hover{
+    background-color: rgba(229,9,20,0.6);
+
+}
+.get-started .form-control:focus{
+    border-color: rgb(229,9,20) ;
+    box-shadow:  10px rgb(229,9,20) ;
+}
+.get-started-fade-bottom{
+    height: 100vh;
+    background: rgb(0,0,0);
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.668) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);;
+
+}

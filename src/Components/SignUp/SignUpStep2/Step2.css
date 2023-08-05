@@ -1,0 +1,58 @@
+.step2{
+    background-color: #fff;
+}
+
+.step2-container{
+    height: 100vh;
+    position: relative;
+   
+}
+.step2 .reg-wrapper{
+   position: absolute;
+   top:50%;
+   left:50%;
+   transform:translate(-50%,-50%);
+   color:#333333;
+   text-align: center;
+  
+   height: auto;
+  
+   
+}
+.reg-wrapper .layer-1{
+    color:#333333;
+    font-weight: 100;
+}
+.reg-wrapper .layer-2{
+    color: inherit;
+    font-weight: 700;
+}
+.reg-wrapper .layer-3{
+    color: inherit;
+    font-size: 1rem;
+    font-weight: 100;
+}
+.reg-wrapper .layer-1 span{
+    color: #333333;
+    font-weight: 600;
+}
+.step2 .step2-next-btn{
+    padding:0.2rem 2rem;
+    background-color: #e50914;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 20px;
+    font-weight: 400;
+    
+    border-color: #e50914;
+    width: auto;
+}
+.step2 .step2-next-btn:hover{
+    opacity: 0.5;
+}
+.step2 .reg-wrapper img{
+    width: 60%;
+}
+.step2 .step2-form{
+    color: #333333;
+}
